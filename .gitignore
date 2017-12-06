@@ -2,3 +2,7 @@
 
 /node_modules
 /bower_components
+
+#packages
+
+package-lock.json
