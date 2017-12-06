@@ -1,0 +1,44 @@
+@import "mixin";
+@import "color-size";
+
+#presentation {
+    font-size: $size-13;
+    overflow: hidden;
+    clear: both;
+    .wrap-text {
+        background-color: darken($white, 7%);
+        padding: 1.5rem 0;
+        text-align: center;
+        h2 {
+            margin: 0 0 2rem 0;
+            font-size: $size-30;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        p {
+            text-align: left;
+            font-size: $size-14;
+            line-height: $size-25;
+            margin: 1rem auto 0;
+        }
+        .pres {
+            display: inline-block;
+            margin: 1rem 0;
+            font-size: $size-15;
+        }
+        ul {
+            display: inline-block;
+            vertical-align: text-top;
+            text-align: justify;
+        }
+        .icon-checkmark:before {
+            margin: 0 .3rem 0 0;
+            color: $soft-blue;
+        }
+        a.icon-phone {
+            display: block;
+            margin: 2rem 0 1rem;
+            font-size: $size-15;
+        }
+    }    
+}

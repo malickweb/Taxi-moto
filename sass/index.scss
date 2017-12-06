@@ -1,0 +1,69 @@
+@import "reset";
+@import "dependencies";
+
+
+@import "mixin";
+@import "color-size";
+@import "font-perso";
+
+@import "header";
+@import "boxLogo";
+@import "presentation";
+@import "section";
+@import "footer";
+
+html{
+    font-size: 10px;
+    font-family: arial, sans-serif;
+}
+
+.btn-perso {
+    position: relative;
+    float: right;
+    width: 3rem;
+    height: 2.2rem;
+    margin: 3.5rem 0 0 0;
+    background-color: transparent;
+    outline: none;
+    span {
+        position: absolute;
+        width: 100%;
+        height: 0.2rem;
+        top: 0;
+        left: 0;
+    }
+}
+
+//ajout menu
+header {
+    .main-burger span {
+        top: 1rem;
+        @include transform(rotate(45deg));
+        @include transition(all .3s);
+        &:before {
+            content: '';
+            opacity: 0;
+            width: 0;
+            @include transition(all .3s);
+        }
+        &:after {
+            content: "";
+            top: 0;
+            @include transform(rotate(-90deg));
+            @include transition(all .3s);
+        }
+    }
+    .open-nav {
+        height: inherit;
+        margin: 1rem auto;
+        visibility: visible;    
+        @include transition(all .3s);
+        ul li {
+            padding: .5rem 1rem;
+            a {
+                height: inherit;
+            }
+        }
+    }
+}
+//fin ajout

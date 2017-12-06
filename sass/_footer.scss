@@ -1,0 +1,39 @@
+@import "mixin";
+@import "color-size";
+
+footer {
+    border-top: 1px solid lighten($black, 10%);
+    background-color: $black;
+    color: $white;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    font-size: $size-12;
+    overflow: hidden;
+    @media (min-width: 768px) {
+        font-size: $size-13;
+    }
+
+    h2 {
+        display: block;
+        font-size: $size-13;
+        color: $soft-blue;
+        @media (min-width: 768px) {
+            font-size: $size-14;
+        }
+        @media (min-width: 992px) {
+            font-size: $size-15;
+        }
+
+        &:hover {
+            color: $white;
+        }
+    }
+    a {
+        display: inline-block;
+        color: $white;
+        &:hover {
+            color: $soft-blue;
+        }
+    }
+}
+

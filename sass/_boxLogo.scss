@@ -1,0 +1,66 @@
+.box-logo .logo {
+    position: relative;
+    height: 30rem;
+    background: url("../img/front1.jpg") no-repeat 0 55%;
+    background-size: 100%;
+    overflow: hidden;
+
+    @media (min-width: 768px) {
+        background-position: 0 70%;
+        background-size: cover;
+        height: 35rem;
+    }
+
+    @media (min-width: 992px) {
+        background-position: 50% 70%;
+        background-size: 80%;
+        height: 40rem;
+    }
+
+    .inner-logo {
+        position: absolute;
+        top: 20%;
+        width: 100%;
+        color: $white;
+        text-align: center;
+
+        @media (min-width: 768px) {
+            top: 35%;
+        }
+
+        a {
+            display: block;
+            color: inherit;
+            h1 {
+                margin: 0;
+                font-size: $size-45;
+            }
+        }
+        .btn {
+            margin: 1.5rem 0;
+            background-color: $soft-blue;
+            padding: 0 2rem;
+            border: 2px solid $soft-blue;
+            @include border-radius(50px);
+            @include transition(background-color .3s);
+            &:hover {
+                background-color: $white;
+                @include transition(background-color .3s);
+            }
+            a {
+                display: block;
+                padding: 1.5rem 1rem;
+                font-size: $size-20;
+                color: $white;
+                @include transition(color .3s);
+                &:hover {
+                    color: $soft-blue;
+                    @include transition(color .3s);
+                }
+            }
+        }
+        h2 {
+            margin: 0;
+        }
+    }
+}

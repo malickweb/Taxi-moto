@@ -1,0 +1,23 @@
+@import "mixin";
+@import "color-size";
+
+
+@media (min-width: 992px) {
+
+}
+.second-part {
+  //font-size: $size-16;
+  .wrap-info .inner-info {
+    // h3 {
+    //   text-align: center;
+    // }
+    img {
+      margin: 1rem auto 0;
+    }
+  }
+}
+footer {
+  h1 {
+    font-size: $size-16;
+  }
+}

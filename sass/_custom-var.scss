@@ -1,0 +1,8 @@
+
+$font-family-base : 'Lato', sans-serif;
+$font-size-base: 10px;
+$brand-primary: #000;
+$text-color: $brand-primary;
+$link-hover-decoration: none;
+$bootstrap-sass-asset-helper: false !default;
+$icon-font-path: if($bootstrap-sass-asset-helper, "../../bootstrap/", "../../bower_components/bootstrap-sass/assets/fonts/bootstrap/") !default;
