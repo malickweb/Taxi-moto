@@ -39,7 +39,7 @@
                         <img src="static/img/logo_taxi-moto.png" alt="logo taxi moto">
                     </a>
                 </div>
-                <div class="col-xs-1 col-xs-offset-3 col-sm-offset-7 col-md-offset-8">
+                <div class="col-xs-2 col-xs-offset-2 col-sm-1 col-sm-offset-7 col-md-offset-8">
                     <button class="btn-perso" data-event-js="main-mobile">
                         <span></span>
                     </button>
