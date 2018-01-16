@@ -325,8 +325,8 @@
                             </tbody>
                         </table>
                         <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
-                            <p>Banlieue 2 prise en charge 2€/km.</p>
-                            <p>Majoration de 25% si la reservation est de -1h et de 22h à 7h.</p>
+                            <p>Banlieue 2 prise en charge 2,50 €/km.</p>
+                            <p>Majoration de 25% si la reservation est de -2h et de 22h à 7h.</p>
                             <p>Majoration de 50% le week end et jours férié</p>
                         </div>
                         <table class="col-xs-12 col-sm-8 col-sm-offset-2">
