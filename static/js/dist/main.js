@@ -45,7 +45,7 @@ var form = function() {
             prenom = $('input[name="prenom"]').val();
             mail = $('input[name="email"]').val();
             tel = $('input[name="tel"]').val();
-            depart = $$('input[name="depart"]').val();
+            depart = $('input[name="depart"]').val();
             date = $('input[name="date"]').val();
             time = $('input[name="time"]').val();
             arrive = $('input[name="arrive"]').val();
