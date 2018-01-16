@@ -2,6 +2,7 @@ var form = function() {
     
         var $form = $('#form'),
               $inputSuper = $form.find('input'),
+              $innerForm = $('.inner-form'),
               foo = $('input[name="nom"], input[name="prenom"], input[name="email"], input[name="tel"], input[name="depart"], input[name="date"], input[name="time"], input[name="arrive"], input[name="comment"]'),
               valid = true;
     
@@ -46,11 +47,11 @@ var form = function() {
                     method: "POST",
                     url: "php/form.php",
                     data: {
-                        nom : $('input[namee"nom"]').val(),
-                        prenom : $('input[namee"prenom"]').val(),
-                        mail : $('input[namee"email"]').val(),
-                        tel : $('input[namee"tel"]').val(),
-                        depart : $('input[name=depart"]').val(),
+                        nom : $('input[name="nom"]').val(),
+                        prenom : $('input[name="prenom"]').val(),
+                        mail : $('input[name="email"]').val(),
+                        tel : $('input[name="tel"]').val(),
+                        depart : $('input[name="depart"]').val(),
                         date : $('input[name="date"]').val(),
                         time : $('input[name="time"]').val(),
                         arrive : $('input[name="arrive"]').val(),
