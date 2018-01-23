@@ -59,7 +59,7 @@ var form = function() {
                     data: {
                         nom : $('input[name="nom"]').val(),
                         prenom : $('input[name="prenom"]').val(),
-                        mail : $('input[name="email"]').val(),
+                        email : $('input[name="email"]').val(),
                         tel : $('input[name="tel"]').val(),
                         depart : $('input[name="depart"]').val(),
                         date : $('input[name="date"]').val(),
