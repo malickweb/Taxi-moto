@@ -4,7 +4,7 @@
     $mail    =   htmlentities($_POST["email"],ENT_QUOTES, "UTF-8");
     $tel    =   htmlentities($_POST["tel"],ENT_QUOTES, "UTF-8");
     $depart    =   htmlentities($_POST["depart"],ENT_QUOTES, "UTF-8");
-    $time    =   htmlentities($_POST["heure"],ENT_QUOTES, "UTF-8");
+    $time    =   htmlentities($_POST["time"],ENT_QUOTES, "UTF-8");
     $arrive    =   htmlentities($_POST["arrive"],ENT_QUOTES, "UTF-8");
     $commentaire    =   htmlentities($_POST["comment"],ENT_QUOTES, "UTF-8");
 
